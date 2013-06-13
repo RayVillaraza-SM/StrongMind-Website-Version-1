@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+
 @font-face {
     font-family:UniversLTStdCn;
     src: url('../fonts/UniversLTStdCn.eot');
@@ -33,6 +35,18 @@
          url('../fonts/GaramondLTStd.ttf') format('truetype'),
          url('../fonts/GaramondLTStd.svg#GaramondLTStd') format('svg'),
 		 url('../fonts/GaramondLTStd.otf');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:BaskervilleLTStd;
+    src: url('../fonts/BaskervilleLTStd.eot');
+    src: url('../fonts/BaskervilleLTStd.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BaskervilleLTStd.woff') format('woff'),
+         url('../fonts/BaskervilleLTStd.ttf') format('truetype'),
+         url('../fonts/BaskervilleLTStd.svg#BaskervilleLTStd') format('svg'),
+		 url('../fonts/BaskervilleLTStd.otf');
     font-weight:normal;
     font-style:normal;
 }
@@ -74,3 +88,57 @@ header {
 			font-size:18px;
 			text-align:left;
 		}
+		
+nav {
+	overflow:auto;
+	border-top:3px #000 solid;
+	border-bottom:5px #000 solid;
+}
+
+	nav ul {
+		max-width:960px;
+		margin:0 auto;
+	}
+	
+		nav ul li {
+			float:left;
+			margin:0 10px;
+		}
+		
+			nav ul li a {
+				display:block;
+				width:220px;
+				height:125px;
+				font-family:"Libre Baskerville", serif;
+				font-size:36px;
+				color:#000;
+				line-height:124px;
+				text-align:center;
+				text-decoration:none;
+			}
+			
+			nav ul li a:hover {
+				background:url('../images/bg-main-nav-selected.png') center bottom no-repeat;
+			}
+			
+body > section {
+	padding:125px 0;
+	background:#000;
+	font-family:TradeGothicLTStd;
+	color:#fff;
+}
+
+section section {
+	width:960px;
+	margin:0 auto;
+}
+			
+section > p:first-child {
+	font-size:24px;
+	line-height:36px;
+}
+
+section p {
+	font-size:14px;
+	line-height:24px;
+}
