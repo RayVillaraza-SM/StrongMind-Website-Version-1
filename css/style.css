@@ -26,13 +26,13 @@
 }
 
 @font-face {
-    font-family:GaramondPro;
-    src: url('../fonts/GaramondPro.eot');
-    src: url('../fonts/GaramondPro.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/GaramondPro.woff') format('woff'),
-         url('../fonts/GaramondPro.ttf') format('truetype'),
-         url('../fonts/GaramondPro.svg#GaramondPro') format('svg'),
-		 url('../fonts/GaramondPro.otf');
+    font-family:GaramondLTStd;
+    src: url('../fonts/GaramondLTStd.eot');
+    src: url('../fonts/GaramondLTStd.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GaramondLTStd.woff') format('woff'),
+         url('../fonts/GaramondLTStd.ttf') format('truetype'),
+         url('../fonts/GaramondLTStd.svg#GaramondLTStd') format('svg'),
+		 url('../fonts/GaramondLTStd.otf');
     font-weight:normal;
     font-style:normal;
 }
@@ -64,15 +64,13 @@ header {
 		header section span {
 			float:left;
 			display:block;
-			font-family:GaramondPro;
-			font-size:110px;
 		}
 		
 		header section p {
 			float:left;
 			width:200px;
-			margin:6px 19px;
-			font-family:UniversLTStdCn, TradeGothicLTStd, Arial, Helvetica, sans-serif;
+			margin:8px 19px 4px;
+			font-family:UniversLTStdCn, sans-serif;
 			font-size:18px;
 			text-align:left;
 		}
