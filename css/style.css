@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family:UniversLTStdCn;
+    src: url('../fonts/UniversLTStdCn.eot');
+    src: url('../fonts/UniversLTStdCn.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/UniversLTStdCn.woff') format('woff'),
+         url('../fonts/UniversLTStdCn.ttf') format('truetype'),
+         url('../fonts/UniversLTStdCn.svg#UniversLTStdCn') format('svg'),
+		 url('../fonts/UniversLTStdCn.otf');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:TradeGothicLTStd;
+    src: url('../fonts/TradeGothicLTStd.eot');
+    src: url('../fonts/TradeGothicLTStd.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TradeGothicLTStd.woff') format('woff'),
+         url('../fonts/TradeGothicLTStd.ttf') format('truetype'),
+         url('../fonts/TradeGothicLTStd.svg#TradeGothicLTStd') format('svg'),
+		 url('../fonts/TradeGothicLTStd.otf');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:GaramondPro;
+    src: url('../fonts/GaramondPro.eot');
+    src: url('../fonts/GaramondPro.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GaramondPro.woff') format('woff'),
+         url('../fonts/GaramondPro.ttf') format('truetype'),
+         url('../fonts/GaramondPro.svg#GaramondPro') format('svg'),
+		 url('../fonts/GaramondPro.otf');
+    font-weight:normal;
+    font-style:normal;
+}
+
+body {
+	line-height:22px;
+}
+
+header {
+	height:368px;
+	padding:217px 0 0;
+	background:#f00;
+	text-align:center;
+}
+
+.bg-green {
+	background:#b3be35;
+}
+
+	header h1 {
+	}
+	
+	header section {
+		width:300px;
+		height:101px;
+		margin:73px auto 0;
+	}
+	
+		header section span {
+			float:left;
+			display:block;
+			font-family:GaramondPro;
+			font-size:110px;
+		}
+		
+		header section p {
+			float:left;
+			width:200px;
+			margin:6px 19px;
+			font-family:UniversLTStdCn, TradeGothicLTStd, Arial, Helvetica, sans-serif;
+			font-size:18px;
+			text-align:left;
+		}
