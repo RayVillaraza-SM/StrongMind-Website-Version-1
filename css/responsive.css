@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (max-width:319px) {
+	nav {
+		display:none;
+	}
+}
+
+@media screen and (max-width:339px) {
+	header section h1 {
+		margin-bottom:0;
+	}
+	
+	nav ul li a {
+		font-size:28px;
+	}
+	
+	.quote {
+		display:none;
+	}
+}
+
+@media screen and (max-width:479px) {
+	#color_blue footer, #color_lime footer, #color_orange footer, #color_pink footer {
+		background-image:none;
+	}
+	
+		.contact-info {
+			text-align:center;
+		}
+		
+			.phone-numbers {
+				width:165px;
+				margin:0 auto 20px;
+				text-align:left;
+			}
+			
+	#strongmind-portfolio {
+		padding:0;
+	}
+			
+	.carousel-caption {
+		display:none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	header, body > section, footer {
+		padding:50px 20px;
+	}
+	
+	header h1 {
+		margin:0 auto 50px;
+	}
+	
+	nav ul li a {
+		line-height:40px;
+	}
+	
+	nav ul li:nth-child(1) a, nav ul li:nth-child(2) a {
+		margin-top:5px;
+	}
+	
+	nav ul li:nth-child(3) a, nav ul li:nth-child(4) a {
+		margin-bottom:10px;
+	}
+	
+	#list-of-services {
+		padding-top:0;
+	}
+	
+	.view-services {
+		text-align:center;
+	}
+	
+	.services {
+		min-height:250px;
+	}
+	
+	.carousel-indicators {
+		display:none;
+	}
+	
+	.carousel-caption {
+		margin:25px 0 0;
+	}
+	
+	footer {
+		background-position:85% 75px;
+	}
+}
+
+@media screen and (max-width:992px) {
+	.service {
+		min-height:510px;
+	}
+}
+
+@media screen and (min-width:992px) {
+	footer {
+		background-position:44% 120px;
+	}
+}

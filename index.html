@@ -1,48 +1,250 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>StrongMind</title>
-
-<link rel="stylesheet" type="text/css" href="css/reset.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>StrongMind</title>
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    
+    <link rel="stylesheet" media="screen" href="css/responsive.css">
 </head>
 
 <body>
 
-<header class="bg-green">
-	<h1><a href="#" title="StrongMind - Home"><img src="images/hdr-logo-strongmind.png" alt="StrongMind"></a></h1>
-	<section>
-    	<span><img src="images/img-bracket-left.png" alt="StrongMind quote - left bracket"></span>
-    	<p>Hype is good. Viral is better.
-        Learning how to generate
-        either requires a potent mix
-        of art and science.</p>
-        <span><img src="images/img-bracket-right.png" alt="StrongMind quote - right bracket"></span>
-	</section>
+<!-- HEADER -->
+<header class="row">
+	<section class="container">
+        <h1><a class="show-about-us" title="StrongMind - Home"><img class="img-responsive" src="images/hdr-logo-strongmind.png" alt="StrongMind"></a></h1>
+        
+        <section class="quote">
+            <div class="left-bracket"></div>
+            <p>Hype is good. Viral is better. Learning how to generate either requires a potent mix of art and science.</p>
+            <div class="right-bracket"></div>
+        </section>
+    </section>
 </header>
 
-<nav>
+<!-- NAVIGATION -->
+<nav id="nav" class="row">
+	<section class="container">
 	<ul>
-    	<li><a href="" title="Creative Portfolio">creative</a></li>
-        <li><a href="" title="Digital Media Portfolio">digital media</a></li>
-        <li><a href="" title="Online Portfolio">online</a></li>
-        <li><a href="" title="Marketing Portfolio">marketing</a></li>
+    	<li class="col-xs-6 col-sm-3 col-md-3"><a class="show-portfolio" title="StrongMind Portfolio">portfolio</a></li>
+        <li class="col-xs-6 col-sm-3 col-md-3"><a class="show-list-of-services" title="Complete List of Services">services</a></li>
+        <li class="col-xs-6 col-sm-3 col-md-3 selected"><a class="show-about-us" title="About StrongMind">about</a></li>
+        <li class="col-xs-6 col-sm-3 col-md-3"><a class="show-contact-us" title="Contact Us">contact</a></li>
     </ul>
+    </section>
 </nav>
 
-<section>
-	<section>
-        <p>StrongMind understands the importance of having a distinguishable brand identity to set you apart in the marketplace. We develop dynamic marketing and creative strategies allowing you to connect with customers and clients. </p>
-        <p>Based in Chandler, AZ, StrongMind serves as the creative arm for FlipSwitch, a leading integrated solutions provider for online education. We offer a vast platform of content and services designed to help your brand grow, including brand development, web design, marketing strategy, public relations and more.</p>
-        <a href="#" title="View our full list of services."><img src="" alt="Complete list of Services."></a>
-	</section>
+<!-- CREATIVE PORTFOLIO -->
+<section id="strongmind-portfolio" class="row">
+	<section class="container">
+        <div id="carousel-example-generic" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="11"></li>
+        </ol>
+        
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+        	<div class="item active">
+                <img src="images/carousel_1_flipSwitch_businessSuite.jpg" alt="FlipSwitch Business Suite">
+                <div class="carousel-caption">
+                FlipSwitch Business Suite
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_1_flipSwitch_brochureCards.jpg" alt="FlipSwitch Services Brochure">
+                <div class="carousel-caption">
+                FlipSwitch Services Brochure
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_1_flipSwitch_businessCards.jpg" alt="FlipSwitch Playing Cards - Promo Item">
+                <div class="carousel-caption">
+                FlipSwitch Playing Cards - Promo Item
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_1_flipSwitch_stand.jpg" alt="FlipSwitch Stands">
+                <div class="carousel-caption">
+                FlipSwitch Tradeshow Booth
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_1_goldenStateVirtualSchool_brochure.jpg" alt="Golden State Virtual School Brochure">
+                <div class="carousel-caption">
+                Golden State Virtual Academy Logo / Brochure
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_1_meritPreparatoryAcademy_flyer.jpg" alt="Merit Preparatory Academy Direct Mail">
+                <div class="carousel-caption">
+                Merit Preparatory Academy Direct Mail
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_1_primaveraOnlineHighSchool_adFlyer.jpg" alt="Primavera Online High School Ad">
+                <div class="carousel-caption">
+                Primavera Online High School Ad
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_1_primaveraOnlineHighSchool_stand.jpg" alt="Primavera Online High School Stands">
+                <div class="carousel-caption">
+                Primavera Online High School Tradeshow Booth
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_1_primaveraOnlineMiddleSchool_studentIDMailer.jpg" alt="Primavera Online Middle School Student ID Mailer">
+                <div class="carousel-caption">
+                Primavera Online Middle School Student ID Mailer
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_1_primaveraOnlineSchools_AIMS.jpg" alt="Primavera Online High School AIMS Postcard">
+                <div class="carousel-caption">
+                Primavera Online High School AIMS Postcard
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_1_primaveraOnlineSchools_biFoldBrochure.jpg" alt="Primavera Online Schools Bi-fold Brochure">
+                <div class="carousel-caption">
+                Primavera Online High School Brochure
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_1_primaveraOnlineSchools_brochure.jpg" alt="Primavera Online Schools Brochure">
+                <div class="carousel-caption">
+                Primavera Online High School Magazine Ad
+                </div>
+            </div>
+        </div>
+        
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+        </div>
+    </section>
 </section>
 
-<footer>
+<!-- ABOUT STRONGMIND -->
+<section id="about-us" class="row">
+	<section class="container">
+        <section class="col-xs-12 col-sm-7 col-md-8">
+            <p>StrongMind understands the importance of having a distinguishable brand identity to set you apart in the marketplace. We develop dynamic marketing and creative strategies allowing you to connect with customers and clients. </p>
+            <p>Based in Chandler, AZ, StrongMind serves as the creative arm for FlipSwitch, a leading integrated solutions provider for online education. We offer a vast platform of content and services designed to help your brand grow, including brand development, web design, marketing strategy, public relations and more.</p>
+        </section>
+        <section class="view-services col-12 col-lg-2 col-lg-offset-1 col-sm-3 col-sm-offset-1">
+            <button class="show-list-of-services" title="View our full list of services.">Click here for a complete list of services.</button>
+        </section>
+    </section>
+</section>
 
+<!-- HIDDEN: STRONGMIND'S LIST OF SERVICES -->
+<section id="list-of-services" class="row">
+	<section class="container">
+    
+    	<!-- DIGITAL / INTERACTIVE -->
+    	<section class="services col-xs-12 col-sm-6 col-md-5">
+        	<h1>Digital / Interactive</h1>
+            <p>The whole world is online and we can get you connected. We understand online-user habits and the importance of engaging your targeted audience. Through detailed strategic planning, our digital experts will ensure that your site is properly formatted to improve your company’s online visibility. Whether you’re after more “likes,” want new followers or are just looking to become more search engine friendly, we’re here to help you attract the relevant traffic you desire.</p>
+            
+            <p><span>Social Media</span> <span>Search Engine Optimization and Marketing</span> <span>Web Analytics</span> <span>Banner Ads</span> <span>Display Ads</span> <span>Ad Words</span></p>
+            
+            
+        </section>
+        
+        <!-- WEB -->
+        <section class="services col-xs-12 col-sm-6 col-md-5 col-md-offset-2 ">
+            <h1>Web</h1>
+            <p>You’re looking for a website that dazzles, delights and turns casual visitors into interested customers. Our experienced team of web developers improve overall user-experience to help companies connect with their target audiences. Whether you’re in need of a complete website overhaul, are looking for someone to update and manage your site’s content or just want to become more visible on the Internet, StrongMind has the tools to help you become successful online.</p>
+            
+            <p><span>Web Design</span> <span>Front-End and Back-End Development</span> <span>Optimization</span> <span>Content Management Systems</span> <span>UI/UX</span> <span>Site Maintenance</span></p>
+		</section>
+        
+        <!-- MARKETING SERVICES -->
+    	<section class="services col-xs-12 col-sm-6 col-md-5">
+        	<h1>Marketing</h1>
+			<p>What good is it having all of these exciting resources at your disposal if you can’t share them with anyone? Thankfully, StrongMind has the ability to market your products and services, increase your brand awareness and take advantage of all your scintillating new upgrades.</p>
+            
+            <p>Our experienced staff of marketing pros takes the time to research and familiarize themselves with all of your business needs before customizing the ideal campaign to match your objectives. From start-ups trying to become more recognized within the community to titans of the industry looking to tackle new frontiers, the StrongMind can deliver the results that suit your needs.</p>
+            
+            <p><span>Consultation</span> <span>Media Buying</span> <span>Public Relations</span> <span>Traditional and Non-Traditional Advertising</span> <span>Street Teams</span> <span>Casting Calls</span> <span>Copywriting</span></p>
+        </section>
+        
+        <!-- CREATIVE -->
+        <section class="services col-xs-12 col-sm-6 col-md-5 col-md-offset-2">
+			<h1>Creative</h1>
+            <p>Our talented team of creatives spend each day bringing ideas to life that inspire and entertain. Through the use of dynamic concepts, StrongMind approaches each new project with style. We collaborate to deliver results that exceed expectations and enhance brand awareness.</p>
+            
+            <p><span>Consultation</span> <span>Creative Direction</span> <span>Logo Design</span> <span>Illustration</span> <span>Video Production</span> <span>Print Advertising</span> <span>Direct Mail</span> <span>Collateral</span> <span>Photo Shoots</span></p>
+            
+            <br>
+            
+            <h1>Media Services</h1>
+            <p>So you want to be on television? We can help with that. StrongMind's arsenal wouldn't be complete without a state-of-the-art studio for radio and television production. Our talented media team can create almost anything our clients can dream of; from radio and tv, to motion graphics and stunning photography, all in-house.</p>
+            
+            <p><span>Television and Radio</span> <span>Video Production</span> <span>Post-production</span> <span>Motion Graphics</span> <span>Photography</span> <span>Script Writing</span></p>
+        </section>
+    </section>
+</section>
+
+<footer class="row">
+	<section class="container">
+    	<section class="contact-info col-xs-12 col-sm-6 col-md-4">
+    	<a class="show-about-us" title="StrongMind - Home"><img src="images/ftr-logo-strongmind.png" alt="StrongMind | A Division of FlipSwitch"></a>
+        
+        <p class="address">2421 North Arizona Avenue Chandler, AZ 85225</p>
+        
+        <p class="phone-numbers">
+        	(480) 397-0605<br>
+            (480) 355-2125 <sup>FAX</sup>
+		</p>
+        
+        <a href="mailto:info@strongmind.com">info@strongmind.com</a>
+        </section>
+        <section class="contact-form col-xs-12 col-md-5 col-md-offset-3 col-lg-4 col-lg-offset-3">
+    		<form action="contact.php" method="post">
+            	<input type="text" name="full_name" placeholder="Full Name" required>
+                <input type="email" name="email_address" placeholder="E-mail Address" required>
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" placeholder="Message"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </section>
 </footer>
+
+<section class="copyright row text-center">
+	<p>© 2012 - 2013 Strongmind. All Rights Reserved.</p>
+</section>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/js/bootstrap.min.js"></script>
+<script src="js/respond.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>

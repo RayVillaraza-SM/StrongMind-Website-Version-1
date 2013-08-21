@@ -27,118 +27,439 @@
     font-style:normal;
 }
 
-@font-face {
-    font-family:GaramondLTStd;
-    src: url('../fonts/GaramondLTStd.eot');
-    src: url('../fonts/GaramondLTStd.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/GaramondLTStd.woff') format('woff'),
-         url('../fonts/GaramondLTStd.ttf') format('truetype'),
-         url('../fonts/GaramondLTStd.svg#GaramondLTStd') format('svg'),
-		 url('../fonts/GaramondLTStd.otf');
-    font-weight:normal;
-    font-style:normal;
-}
-
-@font-face {
-    font-family:BaskervilleLTStd;
-    src: url('../fonts/BaskervilleLTStd.eot');
-    src: url('../fonts/BaskervilleLTStd.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/BaskervilleLTStd.woff') format('woff'),
-         url('../fonts/BaskervilleLTStd.ttf') format('truetype'),
-         url('../fonts/BaskervilleLTStd.svg#BaskervilleLTStd') format('svg'),
-		 url('../fonts/BaskervilleLTStd.otf');
-    font-weight:normal;
-    font-style:normal;
-}
-
 body {
 	line-height:22px;
 }
 
-header {
-	height:368px;
-	padding:217px 0 0;
-	background:#f00;
-	text-align:center;
+a {
+	cursor:pointer;
 }
 
-.bg-green {
-	background:#b3be35;
+a:hover {
+	text-decoration:none;
+}
+
+header {
+	padding:100px 0;
 }
 
 	header h1 {
+		margin:0 auto 73px;
+		max-width:460px;
 	}
 	
-	header section {
+	header section p {
+		font-family:UniversLTStdCn, sans-serif;
+		font-size:18px;
+	}
+	
+	.contact-confirmation {
+		font-size:18px;
+		line-height:24px;
+		margin:25px 0 0;
+	}
+	
+	.quote {
+		overflow:auto;
 		width:300px;
-		height:101px;
-		margin:73px auto 0;
-	}
-	
-		header section span {
-			float:left;
-			display:block;
-		}
-		
-		header section p {
-			float:left;
-			width:200px;
-			margin:8px 19px 4px;
-			font-family:UniversLTStdCn, sans-serif;
-			font-size:18px;
-			text-align:left;
-		}
-		
-nav {
-	overflow:auto;
-	border-top:3px #000 solid;
-	border-bottom:5px #000 solid;
-}
-
-	nav ul {
-		max-width:960px;
 		margin:0 auto;
 	}
 	
-		nav ul li {
+		.quote div {
 			float:left;
-			margin:0 10px;
+			width:31px;
+			height:101px;
 		}
 		
+		.quote div.left-bracket {
+			background-image:url('../images/img-bracket-left.png');
+			
+		}
+		
+		.quote div.right-bracket {
+			background-image:url('../images/img-bracket-right.png');
+		}
+		
+		.quote div {
+			background-position:center center;
+			background-repeat:no-repeat;
+		}
+		
+		.quote p {
+			float:left;
+			width:202px;
+			margin:4px 18px;
+			font-size:18px;
+		}
+		
+nav {
+}
+
+	nav ul {
+		padding:0;
+		list-style-type:none;
+	}
+	
+		nav ul li {
+		}
+				
 			nav ul li a {
 				display:block;
-				width:220px;
-				height:125px;
 				font-family:"Libre Baskerville", serif;
-				font-size:36px;
+				font-size:32px;
 				color:#000;
-				line-height:124px;
+				line-height:100px;
 				text-align:center;
-				text-decoration:none;
 			}
 			
 			nav ul li a:hover {
-				background:url('../images/bg-main-nav-selected.png') center bottom no-repeat;
+				color:inherit;
+			}
+			
+			nav ul li.selected a, nav ul li.selected a:hover {
+				color:#ccc;
+				cursor:default;
 			}
 			
 body > section {
-	padding:125px 0;
+	padding:75px 0;
 	background:#000;
 	font-family:TradeGothicLTStd;
 	color:#fff;
 }
-
-section section {
-	width:960px;
-	margin:0 auto;
-}
 			
-section > p:first-child {
-	font-size:24px;
-	line-height:36px;
+	section > p:first-child {
+		font-size:24px;
+		line-height:36px;
+	}
+	
+	#list-of-services h1 {
+		border-bottom:1px #333 dashed;
+		font-family:TradeGothicLTStd;
+	}
+	
+	section p {
+		overflow:auto;
+		margin:0 0 20px;
+		font-size:14px;
+		line-height:24px;
+	}
+	
+	.view-services {
+		padding:20px 0 0;
+	}
+	
+		.view-services button {
+			border:none;
+			height:160px;
+			width:160px;
+			margin:0 auto;
+			padding:0;
+			background:url('../images/btn-complete-list-of-services-1-normal.png') no-repeat;
+			text-indent:-9999px;
+		}
+		
+		.view-services button:hover {
+			background:url('../images/btn-complete-list-of-services-2-hover.png') no-repeat;
+		}
+		
+	#list-of-services, #strongmind-portfolio {
+		display:none;
+	}
+	
+	#list-of-services {
+		padding-top:50px;
+	}
+	
+			#list-of-services p span {
+				border:1px solid #333;
+				color:#fff;
+				display:block;
+				float:left;
+				font-size:12px;
+				line-height:18px;
+				margin:1px;
+				padding:8px 10px 2px;
+				text-transform:uppercase;
+			}
+	
+	#strongmind-portfolio {
+		padding:50px 0;
+	}
+	
+	.services {
+		min-height:375px;
+	}
+		
+footer {
+	padding:100px 0;
+	background-image:url('../images/ftr-bg-bracket.png');
+	background-position:center 120px;
+	background-repeat:no-repeat;
+	font-family:TradeGothicLTStd, sans-serif;
 }
 
-section p {
-	font-size:14px;
-	line-height:24px;
+	.contact-info {
+		margin:0 0 50px;
+	}
+	
+		.contact-info a {
+			font-size:18px;
+			color:#000;
+			text-decoration:underline;
+		}
+
+	.address {
+		margin:50px 0 20px;
+	}
+	
+	.phone-numbers {
+		margin:0 0 20px;
+		font-size:18px;
+	}
+	
+		.phone-numbers sup {
+			font-size:11px;
+		}
+		
+	.contact-form form {
+	}
+	
+		.contact-form input, .contact-form textarea {
+			width:100%;
+			border:1px #000 solid;
+			margin:0 0 10px;
+			padding:0 0 0 10px;
+			color:#666;
+		}
+	
+		.contact-form input {
+			height:50px;
+		}
+		
+		.contact-form textarea {
+			height:150px;
+			padding-top:10px;
+		}
+		
+		.contact-form input[type="submit"] {
+			float:right;
+			width:60px;
+			height:60px;
+			margin:0;
+			padding:5px 0 0 1px;
+			background:#000;
+			border:none;
+			border-radius:100%;
+			font-family:TradeGothicLTStd;
+			font-weight:bold;
+			color:#fff;
+			text-transform:uppercase;
+		}
+		
+	.copyright {
+		padding:40px 0;
+		background:#000;
+		color:#fff;
+	}
+	
+		section.copyright p {
+			font-size:12px;
+			line-height:18px;
+		}
+
+/* BOOTSTRAP FIXES */
+body {
+	color:#000;
+}
+
+h1 {
+	margin-top:40px;
+}
+
+.carousel-inner .item {
+}
+
+	.carousel-inner .item img {
+		max-height:500px;
+		margin:0 auto;
+		border:10px #fff solid;
+	}
+	
+.carousel-indicators li {
+	margin:5px;
+	background:#333;
+	border-color:#333;
+}
+
+	.carousel-indicators .active {
+		height:10px;
+		width:10px;
+		margin:5px;
+		border:none;
+	}
+
+.carousel-caption {
+	position:relative;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	padding:0;
+	color:#fff;
+	margin:50px 0 0;
+}
+
+.carousel-control {
+	opacity:1;
+}
+
+	.carousel-control:hover, .carousel-control:focus {
+		opacity:1;
+	}
+	
+.carousel-control .icon-prev:before, .carousel-control .icon-next:before {
+	content:'';
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next {
+	position:static;
+	height:60px;
+	max-width:60px;
+	width:100%;
+	margin:140% 0 0;
+}
+
+	.carousel-control .icon-prev {
+		background:url('../images/btn-prev-1-off.png') center center no-repeat;
+		background-size:100%;
+	}
+
+	.icon-prev:hover {
+		background-image:url('../images/btn-prev-2-on.png');
+	}
+	
+	.carousel-control .icon-next {
+		background:url('../images/btn-next-1-off.png') center center no-repeat;
+		background-size:100%;
+	}
+
+	.icon-next:hover {
+		background-image:url('../images/btn-next-2-on.png');
+	}
+
+/* COLOR SWITCHER - BLUE */
+#color_blue .quote div.left-bracket {
+	background-image:url('../images/img-bracket-left-blue.png');
+}
+
+#color_blue .quote div.right-bracket {
+	background-image:url('../images/img-bracket-right-blue.png');
+}
+
+#color_blue nav ul li a:hover, #color_blue .contact-info a:hover {
+	color:#0095a9;
+}
+
+#color_blue .view-services button:hover {
+	background:url('../images/btn-complete-list-of-services-2-hover-blue.png');
+}
+
+#color_blue #list-of-services h1, #color_blue #list-of-services p span {
+	border-color:#0095a9;
+}
+
+#color_blue .carousel-indicators .active, #color_blue .contact-form input[type="submit"]:hover, #color_blue #list-of-services p span {
+	background:#0095a9;
+}
+
+#color_blue footer {
+	background-image:url('../images/ftr-bg-bracket-blue.png');
+}
+
+/* COLOR SWITCHER - LIME */
+#color_lime .quote div.left-bracket {
+	background-image:url('../images/img-bracket-left-lime.png');
+}
+
+#color_lime .quote div.right-bracket {
+	background-image:url('../images/img-bracket-right-lime.png');
+}
+
+#color_lime nav ul li a:hover, #color_lime .contact-info a:hover {
+	color:#b3be35;
+}
+
+#color_lime .view-services button:hover {
+	background:url('../images/btn-complete-list-of-services-2-hover-lime.png');
+}
+
+#color_lime #list-of-services h1, #color_lime #list-of-services p span {
+	border-color:#b3be35;
+}
+
+#color_lime .carousel-indicators .active, #color_lime .contact-form input[type="submit"]:hover, #color_lime #list-of-services p span {
+	background:#b3be35;
+}
+
+#color_lime footer {
+	background-image:url('../images/ftr-bg-bracket-lime.png');
+}
+
+/* COLOR SWITCHER - ORANGE */
+#color_orange .quote div.left-bracket {
+	background-image:url('../images/img-bracket-left-orange.png');
+}
+
+#color_orange .quote div.right-bracket {
+	background-image:url('../images/img-bracket-right-orange.png');
+}
+
+#color_orange nav ul li a:hover, #color_orange .contact-info a:hover {
+	color:#ee7700;
+}
+
+#color_orange .view-services button:hover {
+	background:url('../images/btn-complete-list-of-services-2-hover-orange.png');
+}
+
+#color_orange #list-of-services h1, #color_orange #list-of-services p span {
+	border-color:#ee7700;
+}
+
+#color_orange .carousel-indicators .active, #color_orange .contact-form input[type="submit"]:hover, #color_orange #list-of-services p span {
+	background:#ee7700;
+}
+
+#color_orange footer {
+	background-image:url('../images/ftr-bg-bracket-orange.png');
+}
+
+/* COLOR SWITCHER - PINK */
+#color_pink .quote div.left-bracket {
+	background-image:url('../images/img-bracket-left-pink.png');
+}
+
+#color_pink .quote div.right-bracket {
+	background-image:url('../images/img-bracket-right-pink.png');
+}
+
+#color_pink nav ul li a:hover, #color_pink .contact-info a:hover {
+	color:#d8006d;
+}
+
+#color_pink .view-services button:hover {
+	background:url('../images/btn-complete-list-of-services-2-hover-pink.png');
+}
+
+#color_pink #list-of-services h1, #color_pink #list-of-services p span {
+	border-color:#d8006d;
+}
+
+#color_pink .carousel-indicators .active, #color_pink .contact-form input[type="submit"]:hover, #color_pink #list-of-services p span {
+	background:#d8006d;
+}
+
+#color_pink footer {
+	background-image:url('../images/ftr-bg-bracket-pink.png');
 }

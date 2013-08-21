@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#color_pink .quote div.left-bracket {
+	background:url('../images/img-bracket-left-pink.png') center center no-repeat;
+}
+
+#color_pink .quote div.right-bracket {
+	background:url('../images/img-bracket-right-pink.png') center center no-repeat;
+}
+
+#color_pink nav ul li a:hover {
+	color:#d8006d;
+	text-decoration:none;
+}
+
+#color_pink .view-services button:hover {
+	background:url('../images/btn-complete-list-of-services-2-hover-pink.png');
+}
+
+#color_pink #list-of-services h1 {
+	border-color:#d8006d;
+}
+
+#color_pink #list-of-services p span {
+	background:#d8006d;
+	border-color:#d8006d;
+}
+
+#color_pink .carousel-indicators .active {
+	background:#d8006d;
+}
+
+#color_pink footer {
+	background-image:url('../images/ftr-bg-bracket-pink.png');
+}
+
+#color_pink .contact-info a:hover {
+	color:#d8006d;
+}
+
+#color_pink .contact-form input[type="submit"]:hover {
+	background:#d8006d;
+	text-decoration:none;
+}

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#color_orange .quote div.left-bracket {
+	background:url('../images/img-bracket-left-orange.png') center center no-repeat;
+}
+
+#color_orange .quote div.right-bracket {
+	background:url('../images/img-bracket-right-orange.png') center center no-repeat;
+}
+
+#color_orange nav ul li a:hover {
+	color:#ee7700;
+	text-decoration:none;
+}
+
+#color_orange .view-services button:hover {
+	background:url('../images/btn-complete-list-of-services-2-hover-orange.png');
+}
+
+#color_orange #list-of-services h1 {
+	border-color:#ee7700;
+}
+
+#color_orange #list-of-services p span {
+	background:#ee7700;
+	border-color:#ee7700;
+}
+
+#color_orange .carousel-indicators .active {
+	background:#ee7700;
+}
+
+#color_orange footer {
+	background-image:url('../images/ftr-bg-bracket-orange.png');
+}
+
+#color_orange .contact-info a:hover {
+	color:#ee7700;
+}
+
+#color_orange .contact-form input[type="submit"]:hover {
+	background:#ee7700;
+	text-decoration:none;
+}

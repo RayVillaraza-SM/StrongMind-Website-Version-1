@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#color_lime .quote div.left-bracket {
+	background:url('../images/img-bracket-left-lime.png') center center no-repeat;
+}
+
+#color_lime .quote div.right-bracket {
+	background:url('../images/img-bracket-right-lime.png') center center no-repeat;
+}
+
+#color_lime nav ul li a:hover {
+	color:#b3be35;
+	text-decoration:none;
+}
+
+#color_lime .view-services button:hover {
+	background:url('../images/btn-complete-list-of-services-2-hover-lime.png');
+}
+
+#color_lime #list-of-services h1 {
+	border-color:#b3be35;
+}
+
+#color_lime #list-of-services p span {
+	background:#b3be35;
+	border-color:#b3be35;
+}
+
+#color_lime .carousel-indicators .active {
+	background:#b3be35;
+}
+
+#color_lime footer {
+	background-image:url('../images/ftr-bg-bracket-lime.png');
+}
+
+#color_lime .contact-info a:hover {
+	color:#b3be35;
+}
+
+#color_lime .contact-form input[type="submit"]:hover {
+	background:#b3be35;
+	text-decoration:none;
+}
